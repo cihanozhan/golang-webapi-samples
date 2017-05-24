@@ -1,0 +1,58 @@
+[
+    {
+        "ID": 1,
+        "Name": "C#"
+    },
+    {
+        "ID": 2,
+        "Name": "GO"
+    },
+    {
+        "ID": 3,
+        "Name": "SQL Server"
+    },
+    {
+        "ID": 4,
+        "Name": "Oracle"
+    },
+    {
+        "ID": 5,
+        "Name": "BigData"
+    },
+    {
+        "ID": 6,
+        "Name": "Machine Learning"
+    },
+    {
+        "ID": 7,
+        "Name": "C"
+    },
+    {
+        "ID": 8,
+        "Name": "C++"
+    },
+    {
+        "ID": 9,
+        "Name": "Java"
+    },
+    {
+        "ID": 10,
+        "Name": "Linux"
+    },
+    {
+        "ID": 11,
+        "Name": "Android"
+    },
+    {
+        "ID": 12,
+        "Name": "Web Tasarım"
+    },
+    {
+        "ID": 13,
+        "Name": "SEO"
+    },
+    {
+        "ID": 14,
+        "Name": "SEM"
+    }
+]
