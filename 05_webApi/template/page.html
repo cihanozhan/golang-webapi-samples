@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{.Page.Name}}</title>
+    <meta name="description" content="{{.Page.Description}}">
+    <meta name="author" content="Cihan Özhan">
+</head>
+<body>
+    <h1>{{.Page.Name}}</h1>
+    {{range .Users}}
+    <p>
+        <strong>{{.ID}} - {{.FirstName}} {{.LastName}}</strong> <i>by {{.Username}}</i>
+        <br>
+        <p>Profil : <a href="{{.Profile}}" target="_blank">Dijibil/{{.Username}}</a></p>
+        {{range .Interests}}
+        <ul>
+            <li>{{.ID}} - {{.Name}}</li>
+        </ul>
+        {{end}}
+    </p>
+    {{end}}
+</body>
+</html>
